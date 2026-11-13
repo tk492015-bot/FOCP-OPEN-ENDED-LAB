@@ -19,7 +19,7 @@ string userinput(string word)
 {
 	return toupper(word)
 }
-void wrongMessage()
+void hintmsg()
 {
     int randomNumber;
 
@@ -45,7 +45,7 @@ int main()
 {
     srand(time(0));
 
-    wrongMessage();
+    hintmsg();
 
     return 0;
 }
