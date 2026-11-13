@@ -4,6 +4,7 @@
 #include<ctime>
 #include<cctype>
 #include<algorithm>
+using namespace std;
 int index(int s)
 {
 	return rand() % s;
@@ -18,11 +19,6 @@ string userinput(string word)
 {
 	return toupper(word)
 }
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-using namespace std;
-
 void wrongMessage()
 {
     int randomNumber;
