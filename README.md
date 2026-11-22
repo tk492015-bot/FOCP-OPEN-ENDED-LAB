@@ -29,11 +29,11 @@ Code-information:
                                    The code uses conditions,loops,functions,arrays and strings.
 There are five header files used in the code which are:
 
-#include<iostream>: For basic input/output operations
-#include<cstdlib>: For random function
-#include<ctime>: For time function
-#include<string>: For string functions
-#include<cctype>: For toupper function
+iostream: For basic input/output operations
+cstdlib: For random function
+ctime: For time function
+string: For string functions
+cctype: For toupper function
  
 There are also total of four functions used in the code which are:
 
